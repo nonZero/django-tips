@@ -194,3 +194,22 @@ It is recommended to start the server from within PyCharm.  Make sure it is not
 running from the command line and from `Run > Edit configurations` click on the
 plus icon and choose *Django Server*.  Call it `runserver 8000` and use it to run the
 server from the Run dropdown menu in the toolbar.
+
+
+## Tip: Create an **m** shortcut command.
+Instead of writing `python manage.py` or `./manage.py` you can add a short `m`
+command that does exactky this instead.
+
+To create the command in linux/mac, run:
+
+    alias m="python manage.py"
+    
+To make it permanent, (assuming you are using bash), add the line above to 
+somewhere appropriate in `~/.bashrc`.
+
+In windows create a small `m.cmd` file in your project, containing the following:
+
+    @python manage.py %*
+
+(Another tip for windows users: create yourself a `c:\Users\MyUser\bin\` folder
+and add it to your *path*.  Put `m.cmd` and other goodies there instead.)  
