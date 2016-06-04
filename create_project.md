@@ -30,7 +30,7 @@ Keep in mind this is **different** from your project (source code) folder.
      
         mkvirtualenv myenv
 
- * On ubuntu, or if your default python is **not** python 3.x, run:
+* On ubuntu, or if your default python is **not** python 3.x, run:
      
         mkvirtualenv myenv -p $(which python3)
      
@@ -101,7 +101,7 @@ your projects, in my case:
 
 A django project always includes one **python package module** to hold project
 settings and some more stuff.  By convention, if your project is called
-`myproejct` this package will be called `myproject` as well, i.e. **inside**
+`myproject` this package will be called `myproject` as well, i.e. **inside**
 our project root folder we are going to have a `myproject` folder with a 
 `__init__.py` file inside it.
 
@@ -113,7 +113,7 @@ To create your project root folder run:
 
     mkdir MyProject
 
-## Create Project 
+## Create The Project 
 
 Now use the *django-admin* command to create the project base structure inside:
 
@@ -139,23 +139,26 @@ Run:
     git commit -m "initial commit"
 
             
-## Create PyCharm Project
+## Create a PyCharm Project
 If you have installed the charm command line shortcut:
-    * cd into `MyProject` folder, and run `charm .`.
-    * In pycharm settings dialog, in the project interpreter panel, choose
-      "Add local..." and choose `~/.virtualenvs/myenv/bin/python`. 
+
+* `cd` into `MyProject` folder, and run `charm .`.
+* In pycharm settings dialog, in the project interpreter panel, choose
+  "Add local..." and `~/.virtualenvs/myenv/bin/python`. 
 
 Otherwise:
-    * In PyCharm, choose *File> New > Project*.
-    * In the *New Project* dialog:
-        1. Select the `MyProject` folder as your poject root.
-        2. Set up a new interpreter by clickong on the gear/cogwheel icon and
-         choosing "Add Local.." and selecting your virtualenv's python:
-            * On Linux/Mac: `~/.virtualenvs/myenv/bin/python`.
-            * On Windows: `C:\Users\MyUser\Envs\myenv\Scripts\python.exe`.
+
+* In PyCharm, choose *File> New > Project*.
+* In the *New Project* dialog:
+    1. Select the `MyProject` folder as your poject root.
+    2. Set up a new interpreter by clickong on the gear/cogwheel icon and
+     choosing "Add Local.." and selecting your virtualenv's python:
+        * On Linux/Mac: `~/.virtualenvs/myenv/bin/python`.
+        * On Windows: `C:\Users\MyUser\Envs\myenv\Scripts\python.exe`.
 
 Make sure Django Support is activated in *Settings > Languages and Frameworks >
 Django*:
+
     * Select `MyProject` as your project root.
     * Select `myproject.settings' as your settings module.
     * Select `manage.py` as youre manage script.
@@ -189,5 +192,3 @@ It is recommended to start the server from within PyCharm.  Make sure it is not
 running from the command line and from `Run > Edit configurations` click on the
 plus icon and choose *Django Server*.  Call it `runserver 8000` and use it to run the
 server from the Run dropdown menu in the toolbar.
-
-
