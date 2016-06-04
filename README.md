@@ -12,4 +12,4 @@ This collection does not aim to replace [Django's excellent documentation](https
 
 
 ## Table of contents
-* [Creating a Django Project](./create_project.md)
+* [Creating a Django Project](./create-project.md)
