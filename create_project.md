@@ -161,9 +161,9 @@ Otherwise:
 Make sure Django Support is activated in *Settings > Languages and Frameworks >
 Django*:
 
-    * Select `MyProject` as your project root.
-    * Select `myproject.settings' as your settings module.
-    * Select `manage.py` as youre manage script.
+* Select `MyProject` as your project root.
+* Select `myproject.settings' as your settings module.
+* Select `manage.py` as youre manage script.
 
 ## Take a look at the files.
 What you are looking for is in `myproject\settings.py`, which in python is 
