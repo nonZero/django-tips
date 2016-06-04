@@ -200,19 +200,19 @@ server from the Run dropdown menu in the toolbar.
 Instead of writing `python manage.py` or `./manage.py` you can add a short `m`
 command:
 
-To create the command in linux/mac, run:
+*   In linux/mac, run:
 
-    alias m="python manage.py"
+        alias m="python manage.py"
     
-To make it permanent, (assuming you are using bash), add the line above to 
-somewhere appropriate in `~/.bashrc`.
+    To make it permanent, (assuming you are using bash), add the line above to 
+    somewhere appropriate in `~/.bashrc`.
 
-In windows create a small `m.cmd` file in your project, containing the following:
+*   In windows create a small `m.cmd` file in your project, containing the following:
 
-    @python manage.py %*
+        @python manage.py %*
 
-(Another tip for windows users: create yourself a `c:\Users\MyUser\bin\` folder
-and add it to your *path*.  Put `m.cmd` and other goodies there instead.)  
+    (Another tip for windows users: create yourself a `c:\Users\MyUser\bin\` folder
+    and add it to your *path*.  Put `m.cmd` and other goodies there instead.)  
 
 Now you can run django commands like this:
 
