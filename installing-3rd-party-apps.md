@@ -20,7 +20,7 @@ Following the installation instructions, to use it we should:
 
 * Run:
 
-    pip install django-extensions
+        pip install django-extensions
     
 * Open `myproject/settings.py`, find `INSTALLED_APPS` in it , and
 add the following line to the tuple:
