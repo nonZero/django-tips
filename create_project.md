@@ -93,8 +93,8 @@ Optionally install jupyter notebook (previously known as ipython notebook):
     pip install noteboook
 
 
-## Create project folder
-Now we will create a project folder.  Start by going to the folder holding all
+## Create A Root Folder For Your Project
+Now we will create a root folder for the project.  Start by going to the folder holding all
 your projects, in my case:
 
     cd ~/projects
@@ -108,6 +108,8 @@ our project root folder we are going to have a `myproject` folder with a
 However, we do not need to call the root folder the same.
 
 **I highly recommend to call your root folder `MyProject` instead.**
+
+This folder would also include your `.git` folder and other stuff.
 
 To create your project root folder run:
 
