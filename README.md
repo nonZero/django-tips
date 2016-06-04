@@ -13,3 +13,4 @@ This collection does not aim to replace [Django's excellent documentation](https
 
 ## Table of contents
 * [Creating a Django Project](./create-project.md)
+* [Installing 3rd Party Apps](./installing-3rd-party-apps.md)
