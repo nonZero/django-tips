@@ -198,7 +198,7 @@ server from the Run dropdown menu in the toolbar.
 
 ## Tip: Create an **m** shortcut command.
 Instead of writing `python manage.py` or `./manage.py` you can add a short `m`
-command that does exactky this instead.
+command:
 
 To create the command in linux/mac, run:
 
@@ -213,3 +213,7 @@ In windows create a small `m.cmd` file in your project, containing the following
 
 (Another tip for windows users: create yourself a `c:\Users\MyUser\bin\` folder
 and add it to your *path*.  Put `m.cmd` and other goodies there instead.)  
+
+Now you can run django commands like this:
+
+    m runserver
